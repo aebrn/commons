@@ -1,7 +1,7 @@
-package pw.highimhell.commons.interfaces;
+package io.aebrn.commons.interfaces;
 
 /**
- * @author hell
+ * @author aebrn
  * 12/3/2020
  */
 public interface Manager<T> {

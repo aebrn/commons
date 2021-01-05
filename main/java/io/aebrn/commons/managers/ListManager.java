@@ -1,12 +1,12 @@
-package pw.highimhell.commons.managers;
+package io.aebrn.commons.managers;
 
-import pw.highimhell.commons.interfaces.Manager;
+import io.aebrn.commons.interfaces.Manager;
 
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
- * @author hell
+ * @author aebrn
  * 12/4/2020
  */
 public class ListManager<T> implements Manager<T> {

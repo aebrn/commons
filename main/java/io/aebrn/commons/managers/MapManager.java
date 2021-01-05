@@ -1,10 +1,10 @@
-package pw.highimhell.commons.managers;
+package io.aebrn.commons.managers;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author hell
+ * @author aebrn
  * 12/4/2020
  */
 public class MapManager<K, V> {

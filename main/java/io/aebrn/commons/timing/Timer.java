@@ -1,7 +1,7 @@
-package pw.highimhell.commons.timing;
+package io.aebrn.commons.timing;
 
 /**
- * @author hell
+ * @author aebrn
  * 12/13/2020
  */
 public final class Timer {

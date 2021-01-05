@@ -1,7 +1,7 @@
-package pw.highimhell.commons.interfaces;
+package io.aebrn.commons.interfaces;
 
 /**
- * @author hell
+ * @author aebrn
  * 12/4/2020
  */
 public interface Labeled {

@@ -1,12 +1,12 @@
-package pw.highimhell.commons.managers;
+package io.aebrn.commons.managers;
 
-import pw.highimhell.commons.interfaces.Manager;
+import io.aebrn.commons.interfaces.Manager;
 
 import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author hell
+ * @author aebrn
  * 12/4/2020
  */
 public class SetManager<T> implements Manager<T> {
