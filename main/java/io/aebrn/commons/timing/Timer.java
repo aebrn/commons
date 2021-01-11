@@ -20,7 +20,7 @@ public final class Timer {
         return getCurrentTime() - this.previous >= convertToUnit(nanoseconds);
     }
 
-    private long convertToUnit(long nanoseconds) {//TODO test this thoroughly
+    private long convertToUnit(long nanoseconds) {
         return switch (timeUnit) {
             case NANOSECONDS -> TimeUnit.NANOSECONDS.convert(nanoseconds, TimeUnit.NANOSECONDS);
             case MICROSECONDS -> TimeUnit.MICROSECONDS.convert(nanoseconds, TimeUnit.NANOSECONDS);
