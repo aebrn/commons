@@ -37,6 +37,6 @@ public final class Timer {
     }
 
     private long getCurrentTime() {
-        return System.nanoTime() / 1000000L;
+        return System.nanoTime();
     }
 }
