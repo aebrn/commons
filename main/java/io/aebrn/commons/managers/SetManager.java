@@ -2,7 +2,6 @@ package io.aebrn.commons.managers;
 
 import io.aebrn.commons.interfaces.Manager;
 
-import java.util.HashSet;
 import java.util.Set;
 
 /**
@@ -10,7 +9,7 @@ import java.util.Set;
  * 12/4/2020
  */
 public class SetManager<T> implements Manager<T> {
-    private final Set<T> hashSet = new HashSet<>();
+    protected Set<T> hashSet;
 
     @Override
     public void register(T element) {

@@ -3,14 +3,13 @@ package io.aebrn.commons.managers;
 import io.aebrn.commons.interfaces.Manager;
 
 import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
  * @author aebrn
  * 12/4/2020
  */
 public class ListManager<T> implements Manager<T> {
-    private final List<T> list = new CopyOnWriteArrayList<>();
+    protected List<T> list;
 
     @Override
     public void register(T element) {
